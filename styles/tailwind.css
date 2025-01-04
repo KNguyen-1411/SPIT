@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.full-container {
+  @apply px-6 py-4;
+}
+.center {
+  @apply flex justify-center items-center;
+}
+.transition {
+  @apply transition-all duration-300;
+}
