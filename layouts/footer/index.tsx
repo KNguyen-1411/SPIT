@@ -17,7 +17,7 @@ export default function Footer() {
           <h2 className="text-lg font-semibold">Trang chủ</h2>
           <hr className="my-3" />
           <div>
-            FacebookIframe
+            Facebook Iframe
             {/* <FacebookIframe /> */}
           </div>
         </div>
@@ -25,19 +25,19 @@ export default function Footer() {
           <h2 className="text-lg font-semibold">CLB Hỗ trợ lập trình</h2>
           <hr className="my-3" />
           <div>
-            <div className="flex items-center mb-3">
+            <div className="flex items-center mb-[10px]">
               <i className="w-4 fa-solid fa-location-dot"></i>
               <p className="ml-2 pb-[2px]">77 Nguyễn Huệ, Huế</p>
             </div>
-            <div className="flex items-center mb-3">
+            <div className="flex items-center mb-[10px]">
               <i className="w-4 fa-solid fa-phone"></i>
               <p className="ml-2 pb-[2px]">070 229 1317</p>
             </div>
-            <div className="flex items-center mb-3">
+            <div className="flex items-center mb-[10px]">
               <i className="w-4 fa-solid fa-envelope-dot"></i>
               <p className="ml-2 pb-[2px]">clbhtlt.ithusc@gmail.com</p>
             </div>
-            <div className="flex items-center mb-3">
+            <div className="flex items-center mb-[10px]">
               <i className="w-4 fa-brands fa-facebook"></i>
               <p className="ml-2 pb-[2px]">facebook.com/clhtlt.ithusc</p>
             </div>
@@ -91,7 +91,7 @@ export default function Footer() {
             <Link
               href="https://it.husc.edu.vn/"
               target="_blank"
-              className="flex items-center mb-2 hover:text-blue-500 transition"
+              className="flex items-center mb-[10px] hover:text-blue-500 transition"
             >
               <div className="w-9 center">
                 <Image
@@ -112,7 +112,7 @@ export default function Footer() {
             <Link
               href="http://husc.hueuni.edu.vn/news.php"
               target="_blank"
-              className="flex items-center mb-2 hover:text-blue-500 transition"
+              className="flex items-center mb-[10px] hover:text-blue-500 transition"
             >
               <div className="w-9 center">
                 <Image
@@ -133,7 +133,7 @@ export default function Footer() {
             <Link
               href="https://hueuni.edu.vn/portal/vi/"
               target="_blank"
-              className="flex items-center mb-2 hover:text-blue-500 transition"
+              className="flex items-center mb-[10px] hover:text-blue-500 transition"
             >
               <div className="w-9 center">
                 <Image

@@ -9,5 +9,5 @@
   @apply flex justify-center items-center;
 }
 .transition {
-  @apply transition-all duration-300;
+  @apply transition-all duration-300 ease-in-out;
 }

@@ -1,4 +1,3 @@
-'use client'
 export default function PageHome() {
-  return <div style={{ height: '300vh' }}>Page home</div>
+  return <div style={{ height: '100vh' }}>Page home</div>
 }
