@@ -34,9 +34,9 @@ export default function Navbar() {
       <ul className="hidden lg:flex space-x-4 pr-4">
         {ListMenu.map((item, index) => (
           <li key={index}>
-            <a href={item.href} className="hover:text-gray-400">
+            <Link href={item.href} className="hover:text-gray-400">
               {item.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
@@ -62,9 +62,9 @@ export default function Navbar() {
               showMenu ? 'opacity-100' : ''
             }`}
           >
-            <a href={item.href} className="text-white hover:text-gray-400">
+            <Link href={item.href} className="text-white hover:text-gray-400">
               {item.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
