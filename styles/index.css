@@ -1,4 +1,4 @@
-@import url("https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css");
+@import url('https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css');
 @import './customs.css';
 @import './animations.css';
 @import './fonts.css';
@@ -8,9 +8,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background: rgb(184, 184, 184);
-}
-.NavbarUI>div{
-  max-width: 100% !important;
 }
